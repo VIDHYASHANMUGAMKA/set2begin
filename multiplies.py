@@ -2,7 +2,7 @@ def print_factors(x):
     
 
    print("The factors of",x,"are:")
-   for i in range(1, 5):
+   for i in range(1, x):
        if x % i == 0:
            print(i)
 
