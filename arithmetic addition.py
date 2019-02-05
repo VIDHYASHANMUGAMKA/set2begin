@@ -1,7 +1,9 @@
-num1 = input('Enter first number: ')
-num2 = input('Enter second number: ')
-num3 = input('Enter third number: ')
-sum = float(num1) + float(num2)+float(num3)
+a = int(input("Please Enter First Number   : "))
+n = int(input("Please Enter the Total Numbers   : "))
+d = int(input("Please Enter the Common Difference : "))
 
+total = (n * (2 * a + (n - 1) * d)) / 2
+tn = a + (n - 1) * d
 
-print('The sum of {0} ,{1} and {2} is {3}'.format(num1, num2, num3, sum)) 
+print("\nThe Sum of Arithmetic Progression Series = " , total)
+print("The tn Term of Arithmetic Progression Series = " , tn)  
