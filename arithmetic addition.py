@@ -1,9 +1,7 @@
-a = int(input("Please Enter First Number   : "))
-n = int(input("Please Enter the Total Numbers   : "))
-d = int(input("Please Enter the Common Difference : "))
-
-total = (n * (2 * a + (n - 1) * d)) / 2
-tn = a + (n - 1) * d
-
-print("\nThe Sum of Arithmetic Progression Series = " , total)
-print("The tn Term of Arithmetic Progression Series = " , tn)  
+a=[]
+n=int(input("Enter number of elements:"))
+for i in range(1,n+1):
+    b=int(input("Enter element:"))
+    a.append(b)
+a.sort()
+print("Largest element is:",a[n-1])  
